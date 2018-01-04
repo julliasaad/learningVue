@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="row">
-    <Item v-for="(item, index) in items" key="index" :item="item" :type="type"/>
+    <Item v-for="(item, index) in items" key="index" :passed-item="item" :type="type"/>
   </div>
 </template>
 
